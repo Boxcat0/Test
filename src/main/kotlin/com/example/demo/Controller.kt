@@ -20,4 +20,4 @@ class Controller(val service: MessageService) {
 }
 
 @Table("messages")
-data class Message(@Id val id: String?, val text: String)
+data class Message(@Id val id: String?, val passwords: String)
